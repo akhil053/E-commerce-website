@@ -337,13 +337,14 @@ body {
     padding: 10px 30px;
 }
 
-#sm-banner .banner-box{
+#sm-banner .banner-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     background-image: url("img/banner/b17.jpg");
-    min-width: 580px;
+    width: 48%;          /* min-width ki jagah width use karo */
+    min-width: 280px;    /* bahut chhota minimum */
     height: 50vh;
     background-size: cover;
     background-position: center;
